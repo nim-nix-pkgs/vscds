@@ -33,11 +33,11 @@
         ]
       },
       "locked": {
-        "lastModified": 1647070154,
-        "narHash": "sha256-rxEDZKda9HWsx9xVEVIwPk6ae7dSuMYdccptbKlxaYM=",
+        "lastModified": 1647114219,
+        "narHash": "sha256-BkU/y9wdomKx7qODyJGaaJ2o0MypG9V9ZREyPTbWj/U=",
         "owner": "nim-nix-pkgs",
         "repo": "nimlevenshtein",
-        "rev": "1f229453331be82b18016c4984dc0232a908c590",
+        "rev": "fbd418acdca22df0ef1057c9aeff45dfbb9c761d",
         "type": "github"
       },
       "original": {
@@ -60,13 +60,20 @@
         "src-nimlevenshtein-0_1_0": "src-nimlevenshtein-0_1_0"
       },
       "locked": {
-        "narHash": "sha256-DQnk2tFgRh8w1UuCO0i6VinMpcfxttjpZI5tQgFDu6M=",
-        "path": "./0_1_0",
-        "type": "path"
+        "dir": "0_1_0",
+        "lastModified": 1647114219,
+        "narHash": "sha256-BkU/y9wdomKx7qODyJGaaJ2o0MypG9V9ZREyPTbWj/U=",
+        "owner": "nim-nix-pkgs",
+        "repo": "nimlevenshtein",
+        "rev": "fbd418acdca22df0ef1057c9aeff45dfbb9c761d",
+        "type": "github"
       },
       "original": {
-        "path": "./0_1_0",
-        "type": "path"
+        "dir": "0_1_0",
+        "owner": "nim-nix-pkgs",
+        "ref": "master",
+        "repo": "nimlevenshtein",
+        "type": "github"
       }
     },
     "nimlevenshtein-master": {
@@ -82,13 +89,20 @@
         "src-nimlevenshtein-master": "src-nimlevenshtein-master"
       },
       "locked": {
-        "narHash": "sha256-Fyx7cbHT3h7ltWMPFHpxjqD6Gsnsw6jcSB8Jp7P8xs4=",
-        "path": "./master",
-        "type": "path"
+        "dir": "master",
+        "lastModified": 1647114219,
+        "narHash": "sha256-BkU/y9wdomKx7qODyJGaaJ2o0MypG9V9ZREyPTbWj/U=",
+        "owner": "nim-nix-pkgs",
+        "repo": "nimlevenshtein",
+        "rev": "fbd418acdca22df0ef1057c9aeff45dfbb9c761d",
+        "type": "github"
       },
       "original": {
-        "path": "./master",
-        "type": "path"
+        "dir": "master",
+        "owner": "nim-nix-pkgs",
+        "ref": "master",
+        "repo": "nimlevenshtein",
+        "type": "github"
       }
     },
     "nixpkgs": {
