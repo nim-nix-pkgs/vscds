@@ -1,5 +1,5 @@
 {
-  description = ''<VS Code Data Swapper> Easily swap between multiple data folders.'';
+  description = ''<VS Code Data Swapper> Easily manage multiple data folders.'';
 
   inputs.flakeNimbleLib.owner = "riinr";
   inputs.flakeNimbleLib.ref   = "master";
@@ -9,13 +9,14 @@
   
   inputs.src-vscds-master.flake = false;
   inputs.src-vscds-master.owner = "doongjohn";
-  inputs.src-vscds-master.ref   = "refs/heads/master";
+  inputs.src-vscds-master.ref   = "master";
   inputs.src-vscds-master.repo  = "vscds";
   inputs.src-vscds-master.type  = "github";
   
   inputs."nimlevenshtein".owner = "nim-nix-pkgs";
   inputs."nimlevenshtein".ref   = "master";
   inputs."nimlevenshtein".repo  = "nimlevenshtein";
+  inputs."nimlevenshtein".dir   = "0_1_0";
   inputs."nimlevenshtein".type  = "github";
   inputs."nimlevenshtein".inputs.nixpkgs.follows = "nixpkgs";
   inputs."nimlevenshtein".inputs.flakeNimbleLib.follows = "flakeNimbleLib";
