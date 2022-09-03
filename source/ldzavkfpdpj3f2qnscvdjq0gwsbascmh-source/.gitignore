@@ -1,0 +1,10 @@
+# Nim #
+nimcache/
+nimblecache/
+htmldocs/
+
+# Compiled source #
+*.exe
+
+# My files
+settings.json
